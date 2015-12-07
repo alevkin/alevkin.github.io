@@ -1,7 +1,47 @@
 <html>
   <head>
-  </head>
-  <body>
+<style>
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+  background:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+  background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);
+  background-color:#f24537;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #d02718;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
+  background:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);
+  background-color:#c62d1f;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+</style>
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -15,9 +55,12 @@ ga('send', 'pageview');
 <script type="text/javascript">(function(i,s,o,g,r,a,m){i["FCTz"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);})(window, document, "script", "//front.exebid.ru/collect.js","fcz");
    fcz("track", "ramblercasse", "", { type:"conv", pixel_id: "606" });
 </script>
+  </head>
+  <body>
 <noscript><img src="//front.exebid.ru/track?source=ramblercasse&id=&type=conv&pixel_id=606" width="0" height="0" border="0" style="position:absolute;left:-9999px;" /></noscript>
 
 <h1>Бла бла бла</h1>
+<a href="#" class="myButton">red</a>
 <button type="button" style="bgcolor #ff0000; ">Пушми</button>
   </body>
 </html>
